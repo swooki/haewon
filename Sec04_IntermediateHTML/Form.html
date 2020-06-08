@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="Firstname" name="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Last Name" name="lastName" required>
+<!-- Gender -->
+        <br>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio">
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio">
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" name="password" minlength="5" maxlength="10" required>  
+
+        <br>
+        <label for="month">Month</label>
+        <select name="month" id="Month">
+            <option value="0">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+        </select>
+
+        <label for="day">Day</label>
+        <select name="day" id="day">
+            <option value="0">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <label for="year">Year</label>
+        <select name="year" id="year">
+            <option value="0">Year</option>
+            <option value="1">1970</option>
+            <option value="2">1971</option>
+            <option value="3">1972</option>
+        </select>
+        <br>
+        <div>
+            <label for="term">I agree to the terms and conditions</label>
+            <input type="checkbox" id="term" name="term" required>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>
