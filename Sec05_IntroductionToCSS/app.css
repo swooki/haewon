@@ -1,0 +1,19 @@
+body{
+    /* background: url(https://www.publicdomainpictures.net/pictures/90000/velka/woodgrain-texture-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; */
+    background: lightgray;
+}
+h1 {
+    color: rgba(0,200,100,0.5);
+    border: orange 5px solid;
+}
+h2 {
+    background: rgb(197, 56, 78);
+    color: #b82e8a;
+    border: 3px solid rgb(255,255,0);
+}
+li { 
+    background: rgba(0,200,150, 1);
+    color: green;
+}

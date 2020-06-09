@@ -1,0 +1,15 @@
+body{
+    background:orange;
+}
+
+li {
+    border: 2px solid red;
+}
+
+#scope {
+    background-color: green;
+}
+
+.highlight {
+    text-decoration:line-through;
+}
