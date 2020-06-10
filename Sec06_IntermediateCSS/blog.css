@@ -1,0 +1,35 @@
+body {
+    max-width: 700px;
+    width: 70%;
+    margin: 20px auto;
+    border: 20px solid #cccacd;
+    font-family: 'Source Sans Pro';
+}
+
+.blog-post {
+    margin: 20px;
+    padding: 20;
+}
+.blog-post-date{
+    color: #70afef;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.blog-post-title {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.blog-post-content p:first-of-type {
+    border-left : 3px solid #dddddd;
+    margin: 0px;
+    padding-left : 10px;
+}
+
+ hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
