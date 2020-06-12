@@ -3,6 +3,22 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+section {
+    padding-top: 100px;
+}
+
+.blub h2 {
+    font-weight : 100;
+    color:#EA1C2C ;
+}
+
+.blub p {
+    font-weight : 100;
+    color:#f498b8 ;
+    font-size: 1.125rm;
+    line-height: 2em;
+}
+
 #mainNavbar {
     font-size: 1.5em;
     font-weight: 100;
@@ -15,8 +31,28 @@ body {
     color: #EA1C2C;
 }
 
-
 #mainNavbar .navbar-brand {
     color: #ea1c2c;
+}
+
+#headingGroup span {
+    color:#ea1c2c;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4em;
+}
+
+.navbar.scrolled {
+    background: rgba(222,192,222,0.8);
+    transition: background 500ms;
+}
+
+@media (max-width:1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2em;
+    }
 }
 
